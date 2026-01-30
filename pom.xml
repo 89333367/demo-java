@@ -29,6 +29,14 @@
             <version>5.14.2</version>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>sunyu.util</groupId>
+            <artifactId>util-redis</artifactId>
+            <!-- {lettuce-core.version}_{util.version}_{jdk.version}_{architecture.version} -->
+            <version>5.3.7.RELEASE_1.0_jdk8_x64</version>
+            <classifier>shaded</classifier>
+        </dependency>
     </dependencies>
 
     <build>
