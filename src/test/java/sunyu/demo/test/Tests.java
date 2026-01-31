@@ -1,3 +1,5 @@
+package sunyu.demo.test;
+
 import cn.hutool.log.Log;
 import cn.hutool.log.LogFactory;
 import cn.hutool.setting.dialect.Props;
