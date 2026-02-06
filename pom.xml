@@ -29,6 +29,25 @@
             <version>5.14.2</version>
             <scope>test</scope>
         </dependency>
+
+        <!-- https://central.sonatype.com/artifact/com.zaxxer/HikariCP/versions -->
+        <dependency>
+            <groupId>com.zaxxer</groupId>
+            <artifactId>HikariCP</artifactId>
+            <version>4.0.3</version>
+        </dependency>
+        <!-- https://central.sonatype.com/artifact/com.taosdata.jdbc/taos-jdbcdriver/versions -->
+        <dependency>
+            <groupId>com.taosdata.jdbc</groupId>
+            <artifactId>taos-jdbcdriver</artifactId>
+            <version>3.8.1</version>
+        </dependency>
+        <!-- https://central.sonatype.com/artifact/org.mybatis/mybatis/versions -->
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+            <version>3.5.19</version>
+        </dependency>
     </dependencies>
 
     <build>
